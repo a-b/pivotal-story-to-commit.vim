@@ -10,6 +10,8 @@ Insert markdown link
 ``` 
 to the git commit message.
 
+If your don't want link in particular commit press `u` to undo.
+
 # Installation
 
 ```vim
