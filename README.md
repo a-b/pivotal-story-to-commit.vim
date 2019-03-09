@@ -15,5 +15,5 @@ If your don't want link in particular commit press `u` to undo.
 # Installation
 
 ```vim
-Plug 'ab-pivot/pivotal-story-to-commit.vim'
+Plug 'a-b/pivotal-story-to-commit.vim'
 ```
