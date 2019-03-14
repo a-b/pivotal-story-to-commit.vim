@@ -1,7 +1,7 @@
   function! PasteStoryLink()
     let l:clipboard = @*
 
-    let l:pattern = '\(#\|https:\/\/www\.pivotaltracker\.com\/story\/show\/\)\(\d\{9\}\).*'
+    let l:pattern = '^\(#\|https:\/\/www\.pivotaltracker\.com\/story\/show\/\)\(\d\{9\}\).*'
 
     if l:clipboard =~# l:pattern
       let l:story_number = substitute(l:clipboard, l:pattern, '\2', '')
