@@ -15,4 +15,4 @@ function! PasteStoryLink()
   endif
 endfunction
 
-command P2Story call PasteStoryLink()
+command! P2Story call PasteStoryLink()
