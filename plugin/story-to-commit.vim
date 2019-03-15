@@ -14,3 +14,5 @@
       echom 'Copy pivotaltracker.io story link or id to the clipboard before commit'
     endif
   endfunction
+
+command P2Story call PasteStoryLink()
