@@ -12,6 +12,8 @@ to the git commit message.
 
 If your don't want link in particular commit press `u` to undo.
 
+As an alternative you can paste link manually with vim ex command `:P2Story`
+
 # Installation
 
 ```vim
