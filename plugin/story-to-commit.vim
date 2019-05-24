@@ -18,7 +18,7 @@ function! PasteStoryLink(...)
     call append(line('.'), l:story_link)
     call append(line('.'), '')
   else
-    echom 'Copy pivotaltracker.io story link or id to the input before commit'
+    echom 'Copy pivotaltracker.io story link or id to the clipboard before commit'
   endif
 endfunction
 
